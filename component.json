@@ -2,7 +2,7 @@
   "name": "analytics.js-integration-bloomreach",
   "repo": "",
   "description": "The Bloomreach analytics.js integration.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {
