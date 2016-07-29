@@ -1,5 +1,5 @@
 {
-  "name": "analytics.js-integration-bloomreach",
+  "name": "@astronomerio/analytics.js-integration-bloomreach",
   "description": "The Bloomreach analytics.js integration.",
   "author": "greg@astronomer.io",
   "license": "MIT",
