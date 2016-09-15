@@ -1,26 +1,31 @@
 {
-    "name": "@astronomerio/analytics.js-integration-bloomreach",
-    "description": "The Bloomreach analytics.js integration.",
-    "author": "greg@astronomer.io",
-    "license": "MIT",
-    "main": "lib/index.js",
-    "version": "0.0.7",
-    "scripts": {
-        "test": "make test"
-    },
-    "engines": {
-        "node": ">=0.12.0",
-        "npm": ">=2.7.0"
-    },
-    "repository": {
-        "url": "",
-        "type": "git"
-    },
-    "bugs": {
-        "url": ""
-    },
-    "homepage": "",
-    "dependencies": {},
-    "devDependencies": {
-    }
+  "name": "@astronomerio/analytics.js-integration-bloomreach",
+  "description": "The Bloomreach analytics.js integration.",
+  "author": "greg@astronomer.io",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "version": "0.0.7",
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "npm": ">=2.7.0"
+  },
+  "repository": {
+    "url": "",
+    "type": "git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "@segment/analytics.js-integration": "^3.1.0"
+  },
+  "devDependencies": {
+    "@astronomerio/analytics.js-core": "github:astronomerio/analytics.js-core",
+    "@segment/analytics.js-integration-tester": "^3.1.0",
+    "@segment/clear-env": "^2.0.3"
+  }
 }
