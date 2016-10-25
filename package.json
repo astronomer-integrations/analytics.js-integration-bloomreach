@@ -1,7 +1,7 @@
 {
   "name": "@astronomerio/analytics.js-integration-bloomreach",
   "description": "The Bloomreach analytics.js integration.",
-  "author": "greg@astronomer.io",
+  "author": "alois@astronomer.io",
   "license": "MIT",
   "main": "lib/index.js",
   "version": "1.0.0",
@@ -24,7 +24,7 @@
     "@astronomerio/analytics.js-integration": "github:astronomerio/analytics.js-integration#3.1.0"
   },
   "devDependencies": {
-    "@astronomerio/analytics.js-core": "github:astronomerio/analytics.js-core",
+    "@astronomerio/analytics.js-core": "github:astronomerio/analytics.js-core#3.0.0",
     "@segment/analytics.js-integration-tester": "^3.1.0",
     "@segment/clear-env": "^2.0.3",
     "@segment/eslint-config": "^3.1.1",
